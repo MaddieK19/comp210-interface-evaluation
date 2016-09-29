@@ -437,7 +437,7 @@ body {
 }
 
 p {
-  margin-top: 0;
+  margin-top: 10;
 }
 
 a {
@@ -451,8 +451,8 @@ header {
   padding-top: 40px;
   padding-bottom: 40px;
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, serif;
-  background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
-  border-bottom: solid 1px #275da1;
+  background: #94c6e3;
+  border-bottom: solid 5px #31424b;
 }
 
 header h1 {
@@ -500,11 +500,11 @@ header h2 {
 aside#sidebar {
   float: right;
   width: 200px;
-  min-height: 504px;
+  min-height: 200px;
   padding-left: 20px;
   font-size: 12px;
   line-height: 1.3;
-  background: transparent url(../images/sidebar-bg.jpg) 0 0 no-repeat;
+  background-color: #ececec;
 }
 
 aside#sidebar p.repo-owner,
@@ -611,6 +611,7 @@ form {
 
 /* GENERAL ELEMENT TYPE STYLES */
 
+#main-contentp  h1 {
 #main-content h1 {
   margin-top: 0;
   margin-bottom: 0;
@@ -757,6 +758,9 @@ footer a:hover {
   color: #444;
 }
 
+
+
+
 /* MISC */
 .clearfix:after {
   display: block;
@@ -856,6 +860,7 @@ footer a:hover {
     padding: 20px 0;
     margin-top: 20px;
     background-image: none;
+	background-color: red;
     border-top: solid 1px #ddd;
   }
   aside#sidebar a.button {
