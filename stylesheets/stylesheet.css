@@ -46,7 +46,7 @@ summary {
   display: block;
 }
 
-
+/* Drop down code using tutorials from http://www.w3schools.com/css/css_dropdowns.asp */
 .dropbtn {
     background-color: #2268b2;
     color: white;
