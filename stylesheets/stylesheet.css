@@ -470,14 +470,14 @@ optgroup {
  * Remove most spacing between table cells.
  */
 
-table {
-  border-spacing: 0;
-  border-collapse: collapse;
-}
 
-td,
-th {
+td{
   padding: 0;
+  text-align: left;
+  width: 20%;
+}
+tr {
+	
 }
 
 /* LAYOUT STYLES */
@@ -643,7 +643,9 @@ hr {
 
 table {
   width: 100%;
-  border: 1px solid #ebebeb;
+  border: 2px solid black;
+  border-collapse: collapse;
+  text-align: center;
 }
 
 th {
@@ -652,8 +654,8 @@ th {
 
 td {
   font-weight: 300;
-  text-align: center;
-  border: 1px solid #ebebeb;
+  text-align: left;
+  border: 1px solid black;
 }
 
 form {
