@@ -725,6 +725,7 @@ form {
   font-weight: bold;
   color: #474747;
   text-indent: 3px;
+  text-align: center;
 }
 
 h4:before {
@@ -732,6 +733,7 @@ h4:before {
   margin-left: -2.8em;
   content: "////";
   color: #9ddcff;
+    text-align: center;
 }
 
 #main-content h5 {
