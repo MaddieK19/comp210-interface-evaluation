@@ -38,13 +38,17 @@
         <section id="main-content">
           <h3>
 <a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Heuristics Analysis - Qualitative</h3>
-<p> The first evaluation method is a heuristics analysis. This is a qualitative method that looks at whether Skyrim meets all the chosen heuristics.  The heuristics used are <a href="http://dl.acm.org.ezproxy.falmouth.ac.uk/citation.cfm?id=1357282&CFID=847718075&CFTOKEN=29288463">Pinelle's heuristics for video games</a>. These heuristics were specifically designed for game usability.  Pinelle defines "game usability as the degree to which a player is able to learn, control, and understand a game”.  The method used is <a href="https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/">Nielsen’s</a>. Nielsen says that a heuristics analysis should be carried out by a "small set of evaluators" to maximise the number of issues found however due to time constraints I carried out the analysis myself. This means that some issues will be missed.
+<p> The first evaluation method is a heuristics analysis. This is a qualitative method that looks at whether Skyrim meets the chosen heuristics.  The heuristics used are <a href="http://dl.acm.org.ezproxy.falmouth.ac.uk/citation.cfm?id=1357282&CFID=847718075&CFTOKEN=29288463">Pinelle's heuristics for video games</a>. These heuristics were specifically designed for game usability.  Pinelle defines "game usability as the degree to which a player is able to learn, control, and understand a game”.  The method used is <a href="https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/">Nielsen’s</a>. Nielsen says that a heuristics analysis should be carried out by a "small set of evaluators" to maximise the number of issues found however due to time constraints I carried out the analysis myself. This means that some issues will be missed.
 </p>
-<p> A heuristics analysis will be conducted on both Skyrim and the SkyUI mod.</p>
+<p> A heuristics analysis will be conducted on both Skyrim and the SkyUI mod to compare the two interfaces and see if SkyUI does imrpove the Skyrim interface.</p>
 
 <h4>Provide consistent responses to the user’s actions. </h4>
 <p>
-In Skyrim the consistency of the responses often depends on the user and their input device. An Xbox controller will likely give consistent results however there are some issues when using a mouse and keyboard. For example, switching between mouse and keyboard in the menu or inventory screens can cause strange results where the wrong option is selected because the mouse was resting on one option and the arrows being used to get another. A way to improve this would be to only allow one method such as the mouse to be used in the menu screens, this would prevent any inconsistent results. The input devices are the same for both Skyrim and SkyUI so both provide similar responses.
+In Skyrim the consistency of the responses often depends on the user and their input device. An Xbox controller will likely give consistent results however there are some issues when using a mouse and keyboard. For example, switching between mouse and keyboard in the menu or inventory screens can cause strange results where the wrong option is selected because the mouse was resting on one option and the arrows being used to get another. A way to improve this would be to only allow one method such as the mouse to be used in the menu screens, this would prevent any inconsistent results.
+The base mechanics such as hit detection and movement all appear to operate appropriately however there can be physics issues with objects flying away at greater speeds than they should.
+
+The input devices are the same for both Skyrim and SkyUI so both provide similar responses.
+
 </p>
 <br/>
 <h4>Allow users to customize video and audio settings, difficulty and game speed</h4>
@@ -53,9 +57,12 @@ On PC Skyrim auto-detects the ideal video and audio settings for the player’s 
 Audio and video settings can only be changed before the game is launched using a separate tool or once them is running from the pause menu. The image below shows the pause menu where the player can access sub menus for settings for audio, visual and game play.
 </p>
 <img src="images/pause-menu.jpg" alt="pause menu">
-The combination of both auto detect and customising the controls allows players to just start the game without altering settings or allow other players to customise their settings.
+
+There's also a game play menu where the player can change the difficulty at any time.  They can also change when the game saves, how sensitive controls are and invert the Y axis to suit their play style.
 
 <h4>Provide unobstructed views that are appropriate for the user’s current actions and provides users with information on game status.</h4>
+The user can alter their view of the game using mouse controls to change angles or they can switch between first and third person.
+
 The constant gameplay UI in Skyrim is minimal as it’s often just a compass at the top of the screen shows nearby landmarks, currently marked quests and nearby enemies at all times.
 <img src="https://raw.githubusercontent.com/MaddieK19/comp210-interface-evaluation/master/images/ingame-UI.jpg" alt="in game">
  The settings menu allows the user to alter the transparency of the compass if it is obstructing their views. SkyUI does not alter this part of the UI, however there are alternative mods that let the player toggle the compass UI on and off such as <a href="http://www.nexusmods.com/skyrim/mods/3222/?">iHUD</a>.
@@ -68,15 +75,28 @@ The constant gameplay UI in Skyrim is minimal as it’s often just a compass at 
 
 <h4>Provide intuitive and customizable input mappings and provides controls that are easy to manage, and that have an appropriate level of sensitivity and responsiveness.</h4>
 <img src="images/controls-menu.jpg" alt="controls">
-The keyboard controls are easily changed in an in game menu for controls, there's also a game play menu that allows for axis inverting and mouse sensitivity altering. Both these features imrpove the usability of the game allowing players to tailor the input settings to their play style.
+<p>The keyboard controls are easily changed in an in game menu for controls, there's also a game play menu that allows for axis inverting and mouse sensitivity altering. Both these features improve the usability of the game allowing players to tailor the input settings to their play style.
+SkyUI does not affect the input mapping or controls.
+</p>
 
-<h4> Provide visual representations that are easy to interpret and that minimize the need for micromanagement. </h4>
 <h4> Allow users to skip non-playable and frequently repeated content. </h4>
+<p>The beginning tutorial content cannot be skipped without the use of mods. However, this content is not frequently repeated unless the player restarts the game. Players can skip conversations however some content may be repeated depending on how often the player saves.
+SkyUI has no effect on non-playable or repeated content.
+</p>
 
 <h4>Provide instructions, training, and help.</h4>
-The game starts for a tutorial teaching players the basic controls however some in game systems aren't explained and have to be learned through playing the game.
+<p>
+The game starts with a tutorial that teaches the player the basic controls. SkyUI does not add any more tutorials or training to the game.
+</p>
+<br/>
+
+<h3>Analysis</h3>
+<p>There are many areas of Skyrim that SkyUI does not affect however the results suggest that the areas it does affect it does improve on. It adds information to UI preventing the player from having to navigate through menus to find it and alters existing crafting and inventory UIs to make them easier to navigate.  However, some of the changes may not be suited to all players, for example the addition of symbols to show active effects may not be clear making it easier for the player to use the original Skyrim UI to navigate to the information through the menus.
+The goal of SkyUI is to make the inventory system more "convenient for the player" and have more "intuitive and efficient keyboard navigation”, the results of the heuristics analysis suggest that SkyUI does improve on the pre-existing Skyrim interface. However, as this analysis was conducted by myself it is bias towards what I find easier to use in a UI. In the future to improve the reliability of the results I would get multiple people, ideally experts, to carry out the analysis and then compare the results.
+ </p>
 
 <br />
+
 
   <br />
 </section>
